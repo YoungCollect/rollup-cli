@@ -1,0 +1,28 @@
+{
+  "name": "rollup-cli",
+  "version": "1.0.0",
+  "description": "CLI Based Rollup",
+  "main": "index.js",
+  "birthYear": "2024",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "chalk": "^5.3.0",
+    "conventional-changelog": "^6.0.0",
+    "execa": "^9.5.1",
+    "minimist": "^1.2.8",
+    "rollup": "^4.24.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "semver": "^7.6.3",
+    "terser": "^5.36.0",
+    "zlib": "^1.0.5"
+  }
+}
